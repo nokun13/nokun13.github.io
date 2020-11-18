@@ -1,0 +1,7 @@
+.video-js{
+    width: 540px;
+    height: 380px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
