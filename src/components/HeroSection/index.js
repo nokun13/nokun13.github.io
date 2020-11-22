@@ -13,7 +13,7 @@ const HeroSection = () => {
     }
 
     return (
-        <HeroContainer>
+        <HeroContainer id='about'>
             <HeroBg>
                 <VideoBg autoPlay loop muted src={Video} type='video/mp4'/>
             </HeroBg>
@@ -23,7 +23,7 @@ const HeroSection = () => {
                 Lorem ipsum Lorem ipsum Lorem ipsum HeroP
                 </HeroP>
                 <HeroBtnWrapper>
-                    <Button to="signup" onMouseEnter={onHover}
+                    <Button to="contact" onMouseEnter={onHover}
                     onMouseLeave={onHover} primary='true' dark='true'>
                         Contact Me {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>

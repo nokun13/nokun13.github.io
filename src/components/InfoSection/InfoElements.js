@@ -5,7 +5,7 @@ export const InfoContainer = styled.div`
     background: ${({lightBg}) => (lightBg ? '#F8FCFF' : '#787878')};
 
     @media screen and (max-width: 768px){
-        padding: 100px 0;
+        padding: 100px 50px;
     }
 `
 
@@ -14,7 +14,7 @@ export const InfoContainer2 = styled.div`
     background: ${({lightBg}) => (lightBg ? '#F8FCFF' : '#787878')};
 
     @media screen and (max-width: 768px){
-        padding: 100px 0;
+        padding: 100px 50px;
     }
 `
 
@@ -28,6 +28,11 @@ export const InfoWrapper = styled.div`
     margin-left: auto;
     padding: 0 24px;
     justify-content: center;
+
+    @media screen and (max-width:768px){
+        justify-content: flex-start;
+    }
+
 `
 
 export const InfoRow = styled.div`
@@ -81,6 +86,7 @@ export const Heading = styled.h1`
     @media screen and (max-width: 480px){
         font-size: 32px;
     }
+
 `
 
 export const Subtitle = styled.p`

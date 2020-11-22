@@ -9,7 +9,7 @@ const Notevid = () => {
         <div>
             <VideoPlayer
              src={videoSrc}
-             autoplay='false'
+             autoPlay='false'
              controls='true'
              playbackRates={[0.5, 1, 1.5, 2, 4]}
              preload='auto'

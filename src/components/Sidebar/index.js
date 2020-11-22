@@ -2,7 +2,7 @@
 import React from 'react'
 import {
     SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu,
-    SidebarLink, SideBtnWrap, SidebarRoute
+    SidebarLink
 } from './SidebarElements';
 
 const Sidebar = ({ isOpen, toggle }) => {
@@ -16,19 +16,19 @@ const Sidebar = ({ isOpen, toggle }) => {
                     <SidebarLink to="about" onClick={toggle}>
                         About
                     </SidebarLink>
-                    <SidebarLink to="discover" onClick={toggle}>
-                        Discover
+                    <SidebarLink to="moneymoney" onClick={toggle}>
+                        moneymoney
                     </SidebarLink>
-                    <SidebarLink to="services" onClick={toggle}>
-                        Services
+                    <SidebarLink to="note" onClick={toggle}>
+                        note
                     </SidebarLink>
-                    <SidebarLink to="signup" onClick={toggle}>
-                        Sign Up
+                    <SidebarLink to="sapare" onClick={toggle}>
+                        sapare
                     </SidebarLink>
                 </SidebarMenu>
-                <SideBtnWrap>
+                {/* <SideBtnWrap>
                     <SidebarRoute to="/signin">Sign In</SidebarRoute>
-                </SideBtnWrap>
+                </SideBtnWrap> */}
             </SidebarWrapper>
         </SidebarContainer>
     )
