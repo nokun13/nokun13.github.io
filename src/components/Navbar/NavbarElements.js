@@ -42,6 +42,7 @@ export const NavLogo = styled(LinkRouter)`
     margin-left: 24px;
     font-weight: bold;
     text-decoration: none;
+
 `
 
 export const MobileIcon = styled.div`
@@ -51,6 +52,17 @@ export const MobileIcon = styled.div`
         display: block;
         position: absolute;
         top: 0;
+        right: 0;
+        transform: translate(-100%, 40%);
+        font-size: 1.8rem;
+        cursor: pointer;
+        color: #fff;
+    }
+
+    @media screen and (max-width:480px) {
+        display: block;
+        position: absolute;
+        top: -1.5vh;
         right: 0;
         transform: translate(-100%, 40%);
         font-size: 1.8rem;

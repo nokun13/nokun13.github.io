@@ -6,8 +6,8 @@ import { Link as LinkRouter } from 'react-router-dom';
 export const SidebarContainer = styled.aside`
     position: fixed;
     z-index: 999;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     background: #0d0d0d;
     display: grid;
     align-items: center;
@@ -74,7 +74,7 @@ export const SidebarRoute = styled(LinkRouter)`
     border-radius: 50px;
     background: #31D5E7;
     white-space: nowrap;
-    padding: 16px 64px; 
+    padding: 16px 64px;
     color: #010606;
     font-size: 16px;
     outline: none;

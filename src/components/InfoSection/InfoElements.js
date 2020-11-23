@@ -4,8 +4,12 @@ export const InfoContainer = styled.div`
     color: #fff;
     background: ${({lightBg}) => (lightBg ? '#F8FCFF' : '#787878')};
 
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 1024px){
         padding: 100px 50px;
+    }
+
+    @media screen and (max-width: 480px){
+        padding: 0;
     }
 `
 
@@ -13,8 +17,12 @@ export const InfoContainer2 = styled.div`
     color: #fff;
     background: ${({lightBg}) => (lightBg ? '#F8FCFF' : '#787878')};
 
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 1024px){
         padding: 100px 50px;
+    }
+
+    @media screen and (max-width: 480px){
+        padding: 0;
     }
 `
 
@@ -29,8 +37,13 @@ export const InfoWrapper = styled.div`
     padding: 0 24px;
     justify-content: center;
 
-    @media screen and (max-width:768px){
-        justify-content: flex-start;
+    @media screen and (max-width:1024px){
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        height: 100vh;
+        width: 100vw;
+        padding: 0;
     }
 
 `
@@ -42,7 +55,7 @@ export const InfoRow = styled.div`
     grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
     width: 1300px;
 
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 1024px){
         grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)};
     }
 `
@@ -51,12 +64,20 @@ export const Column1 = styled.div`
     margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col1;
+
+    @media screen and (max-width: 1024px){
+        padding: 0;
+    }
 `
 
 export const Column2 = styled.div`
     margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col2;
+
+    @media screen and (max-width: 1024px){
+        padding: 0;
+    }
 `
 
 export const TextWrapper = styled.div`
@@ -73,6 +94,10 @@ export const TopLine = styled.p`
     letter-spacing: 1.4px;
     text-transform: uppercase;
     margin-bottom: 16px;
+
+    @media screen and (max-width: 480px){
+        font-size: 12px;
+    }
 `
 
 export const Heading = styled.h1`
@@ -84,7 +109,7 @@ export const Heading = styled.h1`
     white-space: nowrap;
 
     @media screen and (max-width: 480px){
-        font-size: 32px;
+        font-size: 24px;
     }
 
 `
@@ -96,6 +121,11 @@ export const Subtitle = styled.p`
     line-height: 24px;
     white-space: nowrap;
     color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
+
+    @media screen and (max-width: 480px){
+        font-size: 14px;
+        white-space: normal;
+    }
 `
 
 export const BtnWrap = styled.div`

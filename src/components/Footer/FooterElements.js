@@ -94,6 +94,10 @@ export const SocialLogo = styled(Link)`
     font-weight: bold;
     white-space: nowrap;
     margin-right: 80px;
+
+    @media screen and (max-width: 768px){
+        margin-left: 10vw;
+    }
 `
 
 export const WebsiteRights = styled.small`

@@ -18,9 +18,9 @@ const HeroSection = () => {
                 <VideoBg autoPlay loop muted src={Video} type='video/mp4'/>
             </HeroBg>
             <HeroContent>
-                <HeroH1>Placeholder HeroH1</HeroH1>
-                <HeroP>Lorem ipsum Lorem ipsum Lorem ipsum
-                Lorem ipsum Lorem ipsum Lorem ipsum HeroP
+                <HeroH1>Welcome to Nok Hun Kim's Portfolio</HeroH1>
+                <HeroP>
+                    About me
                 </HeroP>
                 <HeroBtnWrapper>
                     <Button to="contact" onMouseEnter={onHover}
