@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaFacebook, FaInstagram, FaTwitter, FaLinkedin, FaGithub} from 'react-icons/fa';
+import {FaFacebook, FaInstagram, FaTwitter, FaLinkedin, FaGithub, FaReact} from 'react-icons/fa';
 import { FooterContainer, FooterLink, FooterLinkItems,
     FooterLinksContainer, FooterLinksWrapper, FooterLinkTitle,
     FooterWrap, SocialMedia, SocialMediaWrap,
@@ -18,7 +18,7 @@ const Footer = () => {
                 <FooterLinksContainer>
                     <FooterLinksWrapper>
                         <FooterLinkItems>
-                            <FooterLinkTitle>made with ♪ and ☺ by Nok Hun Kim</FooterLinkTitle>
+                            <FooterLinkTitle>made with <FaReact /> by Nok Hun Kim</FooterLinkTitle>
                             <FooterLink to='/contact'>Contact me</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>

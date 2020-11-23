@@ -62,6 +62,28 @@ export const MobileIcon = styled.div`
     @media screen and (max-width:480px) {
         display: block;
         position: absolute;
+        top: -1vh;
+        right: 0;
+        transform: translate(-100%, 40%);
+        font-size: 1.8rem;
+        cursor: pointer;
+        color: #fff;
+    }
+
+    @media screen and (max-width:375px) {
+        display: block;
+        position: absolute;
+        top: -0.5vh;
+        right: 0;
+        transform: translate(-100%, 40%);
+        font-size: 1.8rem;
+        cursor: pointer;
+        color: #fff;
+    }
+
+    @media screen and (max-width:368px) {
+        display: block;
+        position: absolute;
         top: -1.5vh;
         right: 0;
         transform: translate(-100%, 40%);
@@ -69,6 +91,7 @@ export const MobileIcon = styled.div`
         cursor: pointer;
         color: #fff;
     }
+
 `
 
 export const NavMenu = styled.div`

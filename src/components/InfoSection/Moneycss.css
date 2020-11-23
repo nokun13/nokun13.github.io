@@ -6,9 +6,30 @@
     cursor: pointer;
 }
 
+@media screen and (max-width: 1024px){
+    .video-js{
+        width: 540px;
+        height: 380px;
+    }
+}
+
 @media screen and (max-width: 480px){
     .video-js{
         width: 360px;
         height: 200px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .video-js{
+        width: 320px;
+        height: 160px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .video-js{
+        width: 240px;
+        height: 180px;
     }
 }

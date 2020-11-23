@@ -43,7 +43,6 @@ export const InfoWrapper = styled.div`
         align-content: center;
         height: 100vh;
         width: 100vw;
-        padding: 0;
     }
 
 `
