@@ -71,15 +71,15 @@ const ContactForm = ({showModal, setShowModal}) => {
           </div>
           <div id="subjectBox">
             <label>Subject</label>
-            <input type="text" name="subject" id="subject" maxlength="50" required/>
+            <input type="text" name="subject" placeholder="Subject" id="subject" maxlength="50" required/>
           </div>
           <div id="emailBox">
             <label>Email</label>
-            <input type="email" name="email" id="email" maxlength="40" required/>
+            <input type="email" name="email" id="email" placeholder="abc@email.com" maxlength="40" required/>
           </div>
           <div id="messageBox">
             <label>Message</label>
-            <textarea name="message" id="message" maxlength="500" required/>
+            <textarea name="message" id="message" placeholder="Write your message here!" maxlength="500" required/>
           </div>
           <div id="submitBox">
             <input type="submit" value="Send" id="submitBtn" />
