@@ -1,8 +1,11 @@
 import React, {useState} from 'react'
-import Video from '../../videos/video.mp4'
-import {Button} from '../ButtonElement'
-import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP,
-HeroBtnWrapper, ArrowForward, ArrowRight } from './HeroElements';
+// import Video from '../../videos/video.mp4';
+import Image from '../../images/fallImg.jpg';
+import { HeroContainer, HeroBg, ImageBg, HeroContent, HeroH1, HeroP,
+HeroBtnWrapper, ArrowForward, ArrowRight, HeroButton } from './HeroElements';
+import '../InfoSection/Buttoncss.css';
+import ContactForm from '../ContactSection/ContactUs';
+// import {Link} from 'react-router-dom'
 
 const HeroSection = () => {
 
@@ -12,21 +15,29 @@ const HeroSection = () => {
         setHover(!hover)
     }
 
+    const [showModal, setShowModal] = useState(false);
+
+    const openModal = () => {
+        setShowModal(prev => !prev);
+    };
+
     return (
         <HeroContainer id='about'>
+            <ContactForm showModal={showModal} setShowModal={setShowModal} />
             <HeroBg>
-                <VideoBg autoPlay loop muted src={Video} type='video/mp4'/>
+                <ImageBg src={Image} />
             </HeroBg>
             <HeroContent>
-                <HeroH1>Welcome to Nok Hun Kim's Portfolio</HeroH1>
+                <HeroH1>Hi, I'm a Web Developer</HeroH1>
                 <HeroP>
-                    About me
+                    Welcome to Nok Hun Kim's Portfolio Website
                 </HeroP>
                 <HeroBtnWrapper>
-                    <Button to="contact" onMouseEnter={onHover}
+                    <HeroButton onClick={openModal}
+                    onMouseEnter={onHover}
                     onMouseLeave={onHover} primary='true' dark='true'>
-                        Contact Me {hover ? <ArrowForward /> : <ArrowRight />}
-                    </Button>
+                            Contact Me {hover ? <ArrowForward /> : <ArrowRight />}
+                    </HeroButton>
                 </HeroBtnWrapper>
             </HeroContent>
         </HeroContainer>

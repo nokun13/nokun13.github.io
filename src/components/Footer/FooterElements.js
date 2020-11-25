@@ -110,7 +110,8 @@ export const SocialIcons = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 300px;
+    margin-left: 20px;
+    width: 120px;
 `
 
 export const SocialIconLink = styled.a`

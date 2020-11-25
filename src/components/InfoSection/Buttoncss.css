@@ -18,4 +18,5 @@
 .linkAsButton:hover{
     transition: all 0.2s ease-in-out;
     background: #fff;
+    text-decoration: none;
 }

@@ -35,6 +35,14 @@ export const HeroBg = styled.div`
     overflow: hidden;
 `
 
+export const ImageBg = styled.img`
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    background: #FFE5AE;
+`
+
 export const VideoBg = styled.video`
     width: 100%;
     height: 100%;
@@ -100,4 +108,25 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
     margin-left: 8px;
     font-size: 20px;
     margin-top: 2px;
+`
+
+export const HeroButton = styled.button`
+    border-radius: 50px;
+    background: ${({primary}) => (primary ? '#31D5E7' : '#363131')};
+    white-space: nowrap;
+    padding: ${({big}) => (big ? '14px 48px' : '12px 30px')};
+    color: ${({dark}) => (dark ? '#010606' : '#fff')};
+    font-size: ${({fontBig}) => (fontBig ? '20px' : '16px')};
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+
+    &:hover{
+        transition: all 0.2s ease-in-out;
+        background: ${({primary}) => (primary ? '#fff' : '#31D5E7')};
+    }
 `

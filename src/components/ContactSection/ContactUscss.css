@@ -1,0 +1,121 @@
+#messageForm{
+    display: flex;
+    flex-direction: column;
+    line-height: 2.5rem;
+    width: 75%;
+    height: 100%;
+}
+
+#messageForm input:not(#submitBtn){
+    outline: none;
+    padding: 8px;
+    font-size: 16px;
+}
+
+#contactMe{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    height: 10%;
+}
+
+#subjectBox{
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+}
+
+#subjectBox label{
+    font-weight: bold;
+}
+
+#subject{
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+#subject:focus {
+    border: 3px solid #555;
+}
+
+#emailBox{
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+}
+
+#emailBox label{
+    font-weight: bold;
+}
+
+#email{
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+#email:focus {
+    border: 3px solid #555;
+}
+
+#messageBox{
+    display: flex;
+    flex-direction: column;
+    height: 35%;
+}
+
+#messageBox label{
+    font-weight: bold;
+}
+
+#message{
+    outline: none;
+    padding: 8px;
+    font-size: 16px;
+    resize: none;
+    overflow: auto;
+    height: 80%;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+#message:focus {
+    border: 3px solid #555;
+}
+
+#submitBox{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    height: 10%;
+}
+
+#submitBtn{
+    border-radius: 50px;
+    background: #31D5E7;
+    white-space: nowrap;
+    padding: 10px 22px;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+}
+
+#submitBtn:hover{
+    transition: all 0.2s ease-in-out;
+    background: #5fdeec;
+}
+
+#contactMe{
+    font-size: 20px;
+    position: relative;
+    display: flex;
+}
