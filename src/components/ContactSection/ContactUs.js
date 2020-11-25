@@ -7,10 +7,26 @@ import './ContactUscss.css';
 
 const ContactForm = ({showModal, setShowModal}) => {
 
+  const animation = useSpring({
+    config: {
+      duration: 250
+    },
+    opacity: showModal ? 1 : 0,
+    transform: showModal ? `translateY(0%)` : `translateY(-100%)`
+  });
+
   const api_key = process.env.REACT_APP_API_KEY;
 
   function sendEmail(e) {
+
     e.preventDefault();
+
+    // if(document.getElementById("subject").value === "" ||
+    // document.getElementById("email").value === "" ||
+    // document.getElementById("message").value === ""){
+    //   alert("Please fill out the form completely!");
+    //   return false;
+    // };
 
     emailjs.sendForm('service_ibsibnf', 'template_cq1nmj8', e.target, api_key)
       .then((result) => {
@@ -25,14 +41,6 @@ const ContactForm = ({showModal, setShowModal}) => {
   }
 
   const modalRef = useRef()
-
-  const animation = useSpring({
-    config: {
-      duration: 250
-    },
-    opacity: showModal ? 1 : 0,
-    transform: showModal ? `translateY(0%)` : `translateY(-100%)`
-  });
 
   const closeModal = e => {
     if(modalRef.current === e.target){
@@ -63,15 +71,15 @@ const ContactForm = ({showModal, setShowModal}) => {
           </div>
           <div id="subjectBox">
             <label>Subject</label>
-            <input type="text" name="subject" id="subject" maxlength="50"/>
+            <input type="text" name="subject" id="subject" maxlength="50" required/>
           </div>
           <div id="emailBox">
             <label>Email</label>
-            <input type="email" name="email" id="email" maxlength="40"/>
+            <input type="email" name="email" id="email" maxlength="40" required/>
           </div>
           <div id="messageBox">
             <label>Message</label>
-            <textarea name="message" id="message" maxlength="500"/>
+            <textarea name="message" id="message" maxlength="500" required/>
           </div>
           <div id="submitBox">
             <input type="submit" value="Send" id="submitBtn" />
