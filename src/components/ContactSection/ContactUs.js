@@ -1,6 +1,6 @@
 import React, {useRef, useEffect, useCallback} from 'react';
 import emailjs from 'emailjs-com';
-import {useSpring, animated} from 'react-spring';
+// import {useSpring, animated} from 'react-spring';
 import {Background, ModalWrapper, ModalContent,
         CloseModalButton} from './ContactElements';
 import './ContactUscss.css';
