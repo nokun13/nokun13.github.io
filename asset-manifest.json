@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.c4713ca8.chunk.css",
-    "main.js": "/static/js/main.00fc9eb2.chunk.js",
-    "main.js.map": "/static/js/main.00fc9eb2.chunk.js.map",
+    "main.css": "/static/css/main.45bfc90f.chunk.css",
+    "main.js": "/static/js/main.b4c333b1.chunk.js",
+    "main.js.map": "/static/js/main.b4c333b1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.dddbe260.js",
     "runtime-main.js.map": "/static/js/runtime-main.dddbe260.js.map",
     "static/js/2.3ce697b3.chunk.js": "/static/js/2.3ce697b3.chunk.js",
     "static/js/2.3ce697b3.chunk.js.map": "/static/js/2.3ce697b3.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.c4713ca8.chunk.css.map": "/static/css/main.c4713ca8.chunk.css.map",
+    "static/css/main.45bfc90f.chunk.css.map": "/static/css/main.45bfc90f.chunk.css.map",
     "static/js/2.3ce697b3.chunk.js.LICENSE.txt": "/static/js/2.3ce697b3.chunk.js.LICENSE.txt",
     "static/media/fallImg.924a4917.jpg": "/static/media/fallImg.924a4917.jpg",
     "static/media/moneycode-1.5c453f70.jpg": "/static/media/moneycode-1.5c453f70.jpg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.dddbe260.js",
     "static/js/2.3ce697b3.chunk.js",
-    "static/css/main.c4713ca8.chunk.css",
-    "static/js/main.00fc9eb2.chunk.js"
+    "static/css/main.45bfc90f.chunk.css",
+    "static/js/main.b4c333b1.chunk.js"
   ]
 }
