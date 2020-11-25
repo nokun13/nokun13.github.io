@@ -7,13 +7,13 @@ import './ContactUscss.css';
 
 const ContactForm = ({showModal, setShowModal}) => {
 
-  const animation = useSpring({
-    config: {
-      duration: 250
-    },
-    opacity: showModal ? 1 : 0,
-    transform: showModal ? `translateY(0%)` : `translateY(-100%)`
-  });
+  // const animation = useSpring({
+  //   config: {
+  //     duration: 250
+  //   },
+  //   opacity: showModal ? 1 : 0,
+  //   transform: showModal ? `translateY(0%)` : `translateY(-100%)`
+  // });
 
   const api_key = process.env.REACT_APP_API_KEY;
 
@@ -62,7 +62,7 @@ const ContactForm = ({showModal, setShowModal}) => {
   return <>
     {showModal ? (
     <Background ref={modalRef} onClick={closeModal}>
-      <animated.div style={animation}>
+      {/* <animated.div style={animation}> */}
       <ModalWrapper showModal={showModal}>
         <ModalContent>
         <form className="contact-form" id="messageForm" onSubmit={sendEmail}>
@@ -89,7 +89,7 @@ const ContactForm = ({showModal, setShowModal}) => {
         <CloseModalButton aria-label='Close modal'
         onClick={() => setShowModal(prev => !prev)} />
       </ModalWrapper>
-      </animated.div>
+      {/* </animated.div> */}
     </Background>
     ) : null}
   </>
