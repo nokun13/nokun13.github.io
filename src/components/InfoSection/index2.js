@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React from 'react'
 import {Link} from 'react-router-dom'
 import {
     BtnWrap, Column1, Column2, Heading, ImgWrap,
@@ -10,14 +10,14 @@ import Notevid from './Notevideo.js'
 const InfoSection2 = ({lightBg, id, imgStart, topLine, lightText,
 darkText, headline, description, buttonLabel, primary, dark, dark2}) => {
 
-    const [offsetY, setOffsetY] = useState(0);
-    const handleScroll = () => setOffsetY(window.pageYOffset);
+    // const [offsetY, setOffsetY] = useState(0);
+    // const handleScroll = () => setOffsetY(window.pageYOffset);
 
-    useEffect(() => {
-        window.addEventListener("scroll", handleScroll);
+    // useEffect(() => {
+    //     window.addEventListener("scroll", handleScroll);
 
-        return () => window.removeEventListener("scroll", handleScroll);
-    }, []);
+    //     return () => window.removeEventListener("scroll", handleScroll);
+    // }, []);
 
     const borderStyle = {
         borderRight: "2px solid black",
