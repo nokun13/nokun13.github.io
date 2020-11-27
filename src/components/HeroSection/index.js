@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 // import Video from '../../videos/video.mp4';
 import Image from '../../images/fallImg.jpg';
 import { HeroContainer, HeroBg, ImageBg, HeroContent, HeroH1, HeroP,
@@ -21,6 +21,15 @@ const HeroSection = () => {
         setShowModal(prev => !prev);
     };
 
+    const [offsetY, setOffsetY] = useState(0);
+    const handleScroll = () => setOffsetY(window.pageYOffset);
+
+    useEffect(() => {
+        window.addEventListener("scroll", handleScroll);
+
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
+
     return (
         <HeroContainer id='about'>
             <ContactForm showModal={showModal} setShowModal={setShowModal} />
@@ -28,8 +37,9 @@ const HeroSection = () => {
                 <ImageBg src={Image} />
             </HeroBg>
             <HeroContent>
-                <HeroH1>Hi, I'm a Web Developer</HeroH1>
-                <HeroP>
+                <HeroH1 style={{ transform: `translateX(${offsetY * -0.2}px)`}}>
+                Hi, I'm a Web Developer</HeroH1>
+                <HeroP style={{ transform: `translateX(${offsetY * 0.2}px)`}}>
                     Welcome to Nok Hun Kim's Portfolio Website
                 </HeroP>
                 <HeroBtnWrapper>
