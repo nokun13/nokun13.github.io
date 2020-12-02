@@ -3,9 +3,9 @@ import {ServicesWrapper, ServicesCard, ServicesH2, ServicesP,
     ServicesHighlight, ServicesDesc, ServicesImgSet} from './ServicesElements';
 import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa';
 import './Moneycss.css';
-import { MoneyImgSet2 } from '../SliderSection/MoneyImages2';
+import { MoneyImgSet3 } from '../SliderSection/MoneyImages3';
 
-const Codesection2 = ({slides,mainCode,mainDesc,mainDesc2}) => {
+const Codesection3 = ({slides,mgrCode,mgrCode2,mgrDesc,mgrDesc2}) => {
 
     const [current, setCurrent] = useState(0);
     const length = slides.length;
@@ -24,7 +24,7 @@ const Codesection2 = ({slides,mainCode,mainDesc,mainDesc2}) => {
             <ServicesCard>
                 <ServicesImgSet>
                     <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
-                    {MoneyImgSet2.map((slide, index) => {
+                    {MoneyImgSet3.map((slide, index) => {
                         return (
                             <div className={index === current ? 'slide active' : 'slide'} key={index}>
                                 {index === current && (
@@ -35,17 +35,23 @@ const Codesection2 = ({slides,mainCode,mainDesc,mainDesc2}) => {
                     })}
                     <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
                     </ServicesImgSet>
-                <ServicesH2>Main Page</ServicesH2>
-                <ServicesP>메인 화면</ServicesP>
+                <ServicesH2>Account Manager Page</ServicesH2>
+                <ServicesP>계좌 관리 화면</ServicesP>
             </ServicesCard>
-                <ServicesHighlight language='java'>
-                {mainCode}
+            <ServicesHighlight language='java'>
+                {mgrCode}
             </ServicesHighlight>
             <ServicesDesc>
-                {mainDesc}
+                {mgrDesc}
+            </ServicesDesc>
+            <ServicesHighlight language='java'>
+                {mgrCode2}
+            </ServicesHighlight>
+            <ServicesDesc>
+                {mgrDesc2}
             </ServicesDesc>
         </ServicesWrapper>
     )
 }
 
-export default Codesection2
+export default Codesection3

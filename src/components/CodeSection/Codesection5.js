@@ -3,9 +3,9 @@ import {ServicesWrapper, ServicesCard, ServicesH2, ServicesP,
     ServicesHighlight, ServicesDesc, ServicesImgSet} from './ServicesElements';
 import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa';
 import './Moneycss.css';
-import { MoneyImgSet2 } from '../SliderSection/MoneyImages2';
+import { MoneyImgSet5 } from '../SliderSection/MoneyImages5';
 
-const Codesection2 = ({slides,mainCode,mainDesc,mainDesc2}) => {
+const Codesection5 = ({slides,recordCode,recordCode2,recordDesc,recordDesc2,recordCode3,recordDesc3}) => {
 
     const [current, setCurrent] = useState(0);
     const length = slides.length;
@@ -24,7 +24,7 @@ const Codesection2 = ({slides,mainCode,mainDesc,mainDesc2}) => {
             <ServicesCard>
                 <ServicesImgSet>
                     <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
-                    {MoneyImgSet2.map((slide, index) => {
+                    {MoneyImgSet5.map((slide, index) => {
                         return (
                             <div className={index === current ? 'slide active' : 'slide'} key={index}>
                                 {index === current && (
@@ -35,17 +35,29 @@ const Codesection2 = ({slides,mainCode,mainDesc,mainDesc2}) => {
                     })}
                     <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
                     </ServicesImgSet>
-                <ServicesH2>Main Page</ServicesH2>
-                <ServicesP>메인 화면</ServicesP>
+                <ServicesH2>Record Page</ServicesH2>
+                <ServicesP>계좌 내역 화면</ServicesP>
             </ServicesCard>
-                <ServicesHighlight language='java'>
-                {mainCode}
+            <ServicesHighlight language='java'>
+                {recordCode}
             </ServicesHighlight>
             <ServicesDesc>
-                {mainDesc}
+                {recordDesc}
+            </ServicesDesc>
+            <ServicesHighlight language='java'>
+                {recordCode2}
+            </ServicesHighlight>
+            <ServicesDesc>
+                {recordDesc2}
+            </ServicesDesc>
+            <ServicesHighlight language='java'>
+                {recordCode3}
+            </ServicesHighlight>
+            <ServicesDesc>
+                {recordDesc3}
             </ServicesDesc>
         </ServicesWrapper>
     )
 }
 
-export default Codesection2
+export default Codesection5

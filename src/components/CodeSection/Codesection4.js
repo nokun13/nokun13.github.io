@@ -3,9 +3,9 @@ import {ServicesWrapper, ServicesCard, ServicesH2, ServicesP,
     ServicesHighlight, ServicesDesc, ServicesImgSet} from './ServicesElements';
 import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa';
 import './Moneycss.css';
-import { MoneyImgSet2 } from '../SliderSection/MoneyImages2';
+import { MoneyImgSet4 } from '../SliderSection/MoneyImages4';
 
-const Codesection2 = ({slides,mainCode,mainDesc,mainDesc2}) => {
+const Codesection4 = ({slides,inputCode,inputCode2,inputDesc,inputDesc2,inputDesc3}) => {
 
     const [current, setCurrent] = useState(0);
     const length = slides.length;
@@ -24,7 +24,7 @@ const Codesection2 = ({slides,mainCode,mainDesc,mainDesc2}) => {
             <ServicesCard>
                 <ServicesImgSet>
                     <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
-                    {MoneyImgSet2.map((slide, index) => {
+                    {MoneyImgSet4.map((slide, index) => {
                         return (
                             <div className={index === current ? 'slide active' : 'slide'} key={index}>
                                 {index === current && (
@@ -35,17 +35,26 @@ const Codesection2 = ({slides,mainCode,mainDesc,mainDesc2}) => {
                     })}
                     <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
                     </ServicesImgSet>
-                <ServicesH2>Main Page</ServicesH2>
-                <ServicesP>메인 화면</ServicesP>
+                <ServicesH2>Input Page</ServicesH2>
+                <ServicesP>입금/출금 화면</ServicesP>
             </ServicesCard>
-                <ServicesHighlight language='java'>
-                {mainCode}
+            <ServicesHighlight language='java'>
+                {inputCode}
             </ServicesHighlight>
             <ServicesDesc>
-                {mainDesc}
+                {inputDesc}
+            </ServicesDesc>
+            <ServicesHighlight language='java'>
+                {inputCode2}
+            </ServicesHighlight>
+            <ServicesDesc>
+                {inputDesc2}
+            </ServicesDesc>
+            <ServicesDesc>
+                {inputDesc3}
             </ServicesDesc>
         </ServicesWrapper>
     )
 }
 
-export default Codesection2
+export default Codesection4

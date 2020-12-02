@@ -1,6 +1,4 @@
 import React from 'react'
-// import Icon1 from '../../images/notecode-1.jpg'
-// import Icon2 from '../../images/notecode-2.jpg'
 import {ServicesContainer, ServicesH1, ServicesWrapper,
 ServicesCard, ServicesH2, ServicesP} from './ServicesElements';
 
