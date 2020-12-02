@@ -48,18 +48,29 @@ export const ServicesCard = styled.div`
     max-width: 800px;
     padding: 30px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.2);
-    transition: all 0.2s ease-in-out;
+    // transition: all 0.2s ease-in-out;
 
-    &:hover{
-        transform: scale(1.02);
-        transition: all 0.2s ease-in-out;
-        cursor: pointer;
-    }
+    // &:hover{
+    //     transform: scale(1.02);
+    //     transition: all 0.2s ease-in-out;
+    //     cursor: pointer;
+    // }
 
     @media screen and (max-width: 480px){
         max-width: 200px;
         padding: 10px;
     }
+`
+
+export const ServicesImgSet = styled.div`
+    position: relative;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    min-width: 700px;
+    min-height: 650px;
+    justify-content: center;
 `
 
 export const ServicesDesc = styled.div`

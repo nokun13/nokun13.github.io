@@ -7,7 +7,7 @@ const Moneypage = () => {
 
     return (
         <>
-         <Moneycode {...moneyHighlight}/>
+         <Moneycode {...moneyHighlight} />
          <Footer />
         </>
     )
