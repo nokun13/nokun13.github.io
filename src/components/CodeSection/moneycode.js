@@ -11,6 +11,10 @@ import Codesection4 from './Codesection4';
 import { moneyHighlight4 } from './moneycode-highlight4';
 import Codesection5 from './Codesection5';
 import { moneyHighlight5 } from './moneycode-highlight5';
+import { moneyHighlight6 } from './moneycode-highlight6';
+import Codesection6 from './Codesection6';
+import Codesection7 from './Codesection7';
+import { moneyHighlight7 } from './moneycode-highlight7';
 
 const Moneycode = () => {
 
@@ -29,6 +33,9 @@ const Moneycode = () => {
             <ServicesBorder />
             <Codesection5 {...moneyHighlight5}/>
             <ServicesBorder />
+            <Codesection6 {...moneyHighlight6}/>
+            <ServicesBorder />
+            <Codesection7 {...moneyHighlight7}/>
         </ServicesContainer>
     )
 }
