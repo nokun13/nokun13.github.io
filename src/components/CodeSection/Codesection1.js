@@ -5,7 +5,7 @@ import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa';
 import './Moneycss.css';
 import { MoneyImgSet1 } from '../SliderSection/MoneyImages';
 
-const Codesection1 = ({slides,loginCode,loginDesc,loginDesc2,loginDesc3}) => {
+const Codesection1 = ({slides,loginCode,loginDesc,loginDesc2,loginDesc3,loginDesc4}) => {
 
     const [current, setCurrent] = useState(0);
     const length = slides.length;
@@ -38,6 +38,9 @@ const Codesection1 = ({slides,loginCode,loginDesc,loginDesc2,loginDesc3}) => {
                 <ServicesH2>Login Page</ServicesH2>
                 <ServicesP>로그인 화면</ServicesP>
             </ServicesCard>
+            <ServicesDesc>
+                {loginDesc4}
+            </ServicesDesc>
             <ServicesHighlight language='java'>
                 {loginCode}
             </ServicesHighlight>

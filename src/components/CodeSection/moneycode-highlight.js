@@ -46,5 +46,12 @@ export const moneyHighlight = {
 
     loginDesc3:
     `하단의 메뉴바는 고정되어 있으며 성공적으로 로그인 후 (로그인 전에는 페이지 이동이 불가합니다) 페이지 이동 할 경우에
-    중앙 패널의 내용물을 교체해주는 방식으로 개발하였습니다.`
+    중앙 패널의 내용물을 교체해주는 방식으로 개발하였습니다.`,
+
+    loginDesc4:
+    `Java와 Oracle DBMS를 활용하여 만든 moneymoney 자금관리 프로그램입니다. Java가 제공하는 JFrame 클래스를 활용하여
+    GUI를 만들었으며 Calendar와 Thread를 활용하여 시계를 구현하였고, Socket과 ServerSocket 클래스를 활용하여 채팅 기능을
+    구현하였습니다. 또, 회원의 자금을 보기 쉽게 원형차트로 나타내기 위하여 Graphics 클래스와 paintComponent() 메소드를 이용하였습니다.
+    프로젝트를 진행하며 Oracle 데이터베이스를 구축하는 방법과 DAO를 이용하여 데이터베이스 연결과 데이터 처리, DTO를 이용하여 데이터 객체 캡슐화 하는 방법을
+    터득하고 활용하였습니다.`,
 }

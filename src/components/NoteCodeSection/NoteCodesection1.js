@@ -5,7 +5,7 @@ import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa';
 import './Notecss.css';
 import { NoteImgSet1 } from '../SliderSection/NoteImages';
 
-const NoteCodesection1 = ({slides,loginCode,loginCode2,loginDesc,loginDesc2,loginDesc3}) => {
+const NoteCodesection1 = ({slides,loginCode,loginCode2,loginDesc,loginDesc2,loginDesc3,loginDesc4}) => {
 
     const [current, setCurrent] = useState(0);
     const length = slides.length;
@@ -38,12 +38,12 @@ const NoteCodesection1 = ({slides,loginCode,loginCode2,loginDesc,loginDesc2,logi
                 <ServicesH2>Login Page</ServicesH2>
                 <ServicesP>로그인 화면</ServicesP>
             </ServicesCard>
-            <ServicesHighlight language='java'>
-                {loginCode}
-            </ServicesHighlight>
             <ServicesDesc>
                 {loginDesc}
             </ServicesDesc>
+            <ServicesHighlight language='java'>
+                {loginCode}
+            </ServicesHighlight>
             <ServicesHighlight language='java'>
                 {loginCode2}
             </ServicesHighlight>
