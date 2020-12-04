@@ -28,7 +28,7 @@ const Codesection4 = ({slides,inputCode,inputCode2,inputDesc,inputDesc2,inputDes
                         return (
                             <div className={index === current ? 'slide active' : 'slide'} key={index}>
                                 {index === current && (
-                                    <img src={slide.image} alt='login images' className="moneyImg" />
+                                    <img src={slide.image} alt='images' className="moneyImg" />
                                 )}
                             </div>
                         );
