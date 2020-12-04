@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.692c4463.chunk.css",
-    "main.js": "/static/js/main.7f5e2106.chunk.js",
-    "main.js.map": "/static/js/main.7f5e2106.chunk.js.map",
+    "main.css": "/static/css/main.d978c914.chunk.css",
+    "main.js": "/static/js/main.4d5ec0a9.chunk.js",
+    "main.js.map": "/static/js/main.4d5ec0a9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.dddbe260.js",
     "runtime-main.js.map": "/static/js/runtime-main.dddbe260.js.map",
-    "static/js/2.dd98b327.chunk.js": "/static/js/2.dd98b327.chunk.js",
-    "static/js/2.dd98b327.chunk.js.map": "/static/js/2.dd98b327.chunk.js.map",
+    "static/js/2.b308c184.chunk.js": "/static/js/2.b308c184.chunk.js",
+    "static/js/2.b308c184.chunk.js.map": "/static/js/2.b308c184.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.692c4463.chunk.css.map": "/static/css/main.692c4463.chunk.css.map",
-    "static/js/2.dd98b327.chunk.js.LICENSE.txt": "/static/js/2.dd98b327.chunk.js.LICENSE.txt",
+    "static/css/main.d978c914.chunk.css.map": "/static/css/main.d978c914.chunk.css.map",
+    "static/js/2.b308c184.chunk.js.LICENSE.txt": "/static/js/2.b308c184.chunk.js.LICENSE.txt",
     "static/media/fallImg.924a4917.jpg": "/static/media/fallImg.924a4917.jpg",
     "static/media/moneycode-1-2.672658dc.jpg": "/static/media/moneycode-1-2.672658dc.jpg",
     "static/media/moneycode-1-3.04db158d.jpg": "/static/media/moneycode-1-3.04db158d.jpg",
@@ -49,12 +49,16 @@
     "static/media/moneycode-7-6.b34a51a8.jpg": "/static/media/moneycode-7-6.b34a51a8.jpg",
     "static/media/moneymoney.0373f7f7.mp4": "/static/media/moneymoney.0373f7f7.mp4",
     "static/media/note.2066ef5a.mp4": "/static/media/note.2066ef5a.mp4",
+    "static/media/notecode-1-1.a25218c7.jpg": "/static/media/notecode-1-1.a25218c7.jpg",
+    "static/media/notecode-1-2.3a5c8ddd.jpg": "/static/media/notecode-1-2.3a5c8ddd.jpg",
+    "static/media/notecode-1-3.73ee2942.jpg": "/static/media/notecode-1-3.73ee2942.jpg",
+    "static/media/notecode-1-4.aa6c8909.jpg": "/static/media/notecode-1-4.aa6c8909.jpg",
     "static/media/sapare.943a6ff6.mp4": "/static/media/sapare.943a6ff6.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.dddbe260.js",
-    "static/js/2.dd98b327.chunk.js",
-    "static/css/main.692c4463.chunk.css",
-    "static/js/main.7f5e2106.chunk.js"
+    "static/js/2.b308c184.chunk.js",
+    "static/css/main.d978c914.chunk.css",
+    "static/js/main.4d5ec0a9.chunk.js"
   ]
 }
