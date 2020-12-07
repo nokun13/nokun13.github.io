@@ -1,11 +1,10 @@
 import React, {useState} from 'react';
 import {ServicesWrapper, ServicesCard, ServicesH2, ServicesP,
     ServicesHighlight, ServicesDesc, ServicesImgSet} from './ServicesElements';
-import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa';
 import './Notecss.css';
-import { NoteImgSet1 } from '../SliderSection/NoteImages';
+import { NoteImgSet4 } from '../SliderSection/NoteImages4';
 
-const NoteCodesection1 = ({slides,loginCode,loginCode2,loginDesc,loginDesc2,loginDesc3}) => {
+const NoteCodesection4 = ({slides,postCode,postCode2,postDesc,postDesc2,postDesc3}) => {
 
     const [current, setCurrent] = useState(0);
     const length = slides.length;
@@ -23,8 +22,7 @@ const NoteCodesection1 = ({slides,loginCode,loginCode2,loginDesc,loginDesc2,logi
         <ServicesWrapper>
             <ServicesCard>
                 <ServicesImgSet>
-                    <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
-                    {NoteImgSet1.map((slide, index) => {
+                    {NoteImgSet4.map((slide, index) => {
                         return (
                             <div className={index === current ? 'slide active' : 'slide'} key={index}>
                                 {index === current && (
@@ -33,28 +31,18 @@ const NoteCodesection1 = ({slides,loginCode,loginCode2,loginDesc,loginDesc2,logi
                             </div>
                         );
                     })}
-                    <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
                 </ServicesImgSet>
-                <ServicesH2>Login Page</ServicesH2>
-                <ServicesP>로그인 화면</ServicesP>
+                <ServicesH2>Post Upload Page</ServicesH2>
+                <ServicesP>게시물 작성 화면</ServicesP>
             </ServicesCard>
-            <ServicesDesc>
-                {loginDesc}
-            </ServicesDesc>
             <ServicesHighlight language='java'>
-                {loginCode}
+                {postCode}
             </ServicesHighlight>
             <ServicesDesc>
-                {loginDesc2}
-            </ServicesDesc>
-            <ServicesHighlight language='java'>
-                {loginCode2}
-            </ServicesHighlight>
-            <ServicesDesc>
-                {loginDesc3}
+                {postDesc}
             </ServicesDesc>
         </ServicesWrapper>
     )
 }
 
-export default NoteCodesection1
+export default NoteCodesection4

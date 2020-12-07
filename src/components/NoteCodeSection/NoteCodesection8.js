@@ -3,9 +3,9 @@ import {ServicesWrapper, ServicesCard, ServicesH2, ServicesP,
     ServicesHighlight, ServicesDesc, ServicesImgSet} from './ServicesElements';
 import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa';
 import './Notecss.css';
-import { NoteImgSet1 } from '../SliderSection/NoteImages';
+import { NoteImgSet8 } from '../SliderSection/NoteImages8';
 
-const NoteCodesection1 = ({slides,loginCode,loginCode2,loginDesc,loginDesc2,loginDesc3}) => {
+const NoteCodesection8 = ({slides,adminDesc}) => {
 
     const [current, setCurrent] = useState(0);
     const length = slides.length;
@@ -24,7 +24,7 @@ const NoteCodesection1 = ({slides,loginCode,loginCode2,loginDesc,loginDesc2,logi
             <ServicesCard>
                 <ServicesImgSet>
                     <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
-                    {NoteImgSet1.map((slide, index) => {
+                    {NoteImgSet8.map((slide, index) => {
                         return (
                             <div className={index === current ? 'slide active' : 'slide'} key={index}>
                                 {index === current && (
@@ -35,26 +35,14 @@ const NoteCodesection1 = ({slides,loginCode,loginCode2,loginDesc,loginDesc2,logi
                     })}
                     <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
                 </ServicesImgSet>
-                <ServicesH2>Login Page</ServicesH2>
-                <ServicesP>로그인 화면</ServicesP>
+                <ServicesH2>Admin Page</ServicesH2>
+                <ServicesP>관리자 화면</ServicesP>
             </ServicesCard>
             <ServicesDesc>
-                {loginDesc}
-            </ServicesDesc>
-            <ServicesHighlight language='java'>
-                {loginCode}
-            </ServicesHighlight>
-            <ServicesDesc>
-                {loginDesc2}
-            </ServicesDesc>
-            <ServicesHighlight language='java'>
-                {loginCode2}
-            </ServicesHighlight>
-            <ServicesDesc>
-                {loginDesc3}
+                {adminDesc}
             </ServicesDesc>
         </ServicesWrapper>
     )
 }
 
-export default NoteCodesection1
+export default NoteCodesection8
