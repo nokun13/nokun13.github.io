@@ -1,0 +1,40 @@
+.gobackbutton{
+    text-decoration: none;
+}
+
+.sapareImg{
+    position: relative;
+    object-fit: cover;
+    max-width: 600px;
+}
+
+.right-arrow{
+    font-size: 2rem;
+    align-self: center;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+    margin-left: 2rem;
+}
+
+.left-arrow{
+    align-self: center;
+    font-size: 2rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+    margin-right: 2rem;
+}
+
+.slide{
+    opacity: 0;
+    transition-duration: 1s ease;
+}
+
+.slide.active{
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.05);
+}
