@@ -47,7 +47,8 @@ export const ServicesCard = styled.div`
     max-height: auto;
     max-width: 800px;
     padding: 30px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    box-shadow:11px 11px 15px #5e5e5e,
+    -11px -11px 15px #929292;
     // transition: all 0.2s ease-in-out;
 
     // &:hover{
@@ -83,7 +84,8 @@ export const ServicesDesc = styled.div`
     max-height: auto;
     max-width: 1200px;
     padding: 30px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    box-shadow: 11px 11px 15px #5e5e5e,
+    -11px -11px 15px #929292;
     transition: all 0.2s ease-in-out;
     font-size: 0.9rem;
     line-height: 1.6;
@@ -167,6 +169,8 @@ export const ServicesHighlight = styled(Highlight)`
     max-width: 800px;
     justify-self: center;
     font-size: 1rem;
+    box-shadow: 11px 11px 15px #5e5e5e,
+    -11px -11px 15px #929292;
 
     @media screen and (max-width: 1200px){
         max-width: 800px;

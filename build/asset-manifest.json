@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.d978c914.chunk.css",
-    "main.js": "/static/js/main.fbbe9f24.chunk.js",
-    "main.js.map": "/static/js/main.fbbe9f24.chunk.js.map",
+    "main.css": "/static/css/main.a7a76fa5.chunk.css",
+    "main.js": "/static/js/main.1e1ecd0e.chunk.js",
+    "main.js.map": "/static/js/main.1e1ecd0e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.dddbe260.js",
     "runtime-main.js.map": "/static/js/runtime-main.dddbe260.js.map",
-    "static/js/2.5abede95.chunk.js": "/static/js/2.5abede95.chunk.js",
-    "static/js/2.5abede95.chunk.js.map": "/static/js/2.5abede95.chunk.js.map",
+    "static/js/2.77416be5.chunk.js": "/static/js/2.77416be5.chunk.js",
+    "static/js/2.77416be5.chunk.js.map": "/static/js/2.77416be5.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.d978c914.chunk.css.map": "/static/css/main.d978c914.chunk.css.map",
-    "static/js/2.5abede95.chunk.js.LICENSE.txt": "/static/js/2.5abede95.chunk.js.LICENSE.txt",
+    "static/css/main.a7a76fa5.chunk.css.map": "/static/css/main.a7a76fa5.chunk.css.map",
+    "static/js/2.77416be5.chunk.js.LICENSE.txt": "/static/js/2.77416be5.chunk.js.LICENSE.txt",
     "static/media/fallImg.924a4917.jpg": "/static/media/fallImg.924a4917.jpg",
     "static/media/moneycode-1-2.672658dc.jpg": "/static/media/moneycode-1-2.672658dc.jpg",
     "static/media/moneycode-1-3.04db158d.jpg": "/static/media/moneycode-1-3.04db158d.jpg",
@@ -62,12 +62,15 @@
     "static/media/notecode-7-1.048aba12.jpg": "/static/media/notecode-7-1.048aba12.jpg",
     "static/media/notecode-8-1.c2c92d71.jpg": "/static/media/notecode-8-1.c2c92d71.jpg",
     "static/media/notecode-8-2.038d5da0.jpg": "/static/media/notecode-8-2.038d5da0.jpg",
-    "static/media/sapare.943a6ff6.mp4": "/static/media/sapare.943a6ff6.mp4"
+    "static/media/sapare.943a6ff6.mp4": "/static/media/sapare.943a6ff6.mp4",
+    "static/media/saparecode-1-1.c6fb0bd8.jpg": "/static/media/saparecode-1-1.c6fb0bd8.jpg",
+    "static/media/saparecode-1-2.d028a267.jpg": "/static/media/saparecode-1-2.d028a267.jpg",
+    "static/media/saparecode-1-3.4801d5c2.jpg": "/static/media/saparecode-1-3.4801d5c2.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.dddbe260.js",
-    "static/js/2.5abede95.chunk.js",
-    "static/css/main.d978c914.chunk.css",
-    "static/js/main.fbbe9f24.chunk.js"
+    "static/js/2.77416be5.chunk.js",
+    "static/css/main.a7a76fa5.chunk.css",
+    "static/js/main.1e1ecd0e.chunk.js"
   ]
 }
