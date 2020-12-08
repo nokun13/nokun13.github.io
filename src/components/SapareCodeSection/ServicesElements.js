@@ -20,7 +20,7 @@ export const ServicesContainer = styled.div`
 `
 
 export const ServicesWrapper = styled.div`
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
@@ -45,7 +45,7 @@ export const ServicesCard = styled.div`
     align-items: center;
     border-radius: 10px;
     max-height: auto;
-    max-width: 800px;
+    max-width: 950px;
     padding: 30px;
     box-shadow: 11px 11px 15px #5e5e5e,
     -11px -11px 15px #929292;
@@ -158,7 +158,7 @@ export const ServicesP = styled.p`
 
 export const ServicesBorder = styled.hr`
     margin: 2rem;
-    width: 47vw;
+    width: 52.2vw;
 
     @media screen and (max-width: 1600px){
         width: 70vw;

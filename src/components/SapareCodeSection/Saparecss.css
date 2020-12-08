@@ -5,7 +5,8 @@
 .sapareImg{
     position: relative;
     object-fit: cover;
-    max-width: 600px;
+    width: 700px;
+    max-height: 600px;
 }
 
 .right-arrow{

@@ -44,8 +44,7 @@ export const ServicesCard = styled.div`
     justify-self: center;
     align-items: center;
     border-radius: 10px;
-    max-height: auto;
-    max-width: 800px;
+    max-width: 1000px;
     padding: 30px;
     box-shadow: 10px 10px 10px #d4dde3,
     -10px -10px 10px #ffffff;

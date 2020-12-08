@@ -5,6 +5,7 @@
 .moneyImg{
     position: relative;
     object-fit: cover;
+    width: 500px;
 }
 
 .right-arrow{
