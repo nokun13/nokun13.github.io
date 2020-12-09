@@ -7,7 +7,7 @@ export const ServicesContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #ebf5fc;
+    background: rgb(179,217,226);
     padding-bottom: 4vh;
 
     @media screen and (max-width: 768px){
@@ -43,11 +43,11 @@ export const ServicesCard = styled.div`
     flex-direction: column;
     justify-self: center;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 15px;
     max-width: 1000px;
     padding: 30px;
-    box-shadow: 10px 10px 10px #d4dde3,
-    -10px -10px 10px #ffffff;
+    box-shadow: 13px 13px 40px #8aa7ae,
+    -13px -13px 40px #dcffff;
     // transition: all 0.2s ease-in-out;
 
     // &:hover{
@@ -79,12 +79,12 @@ export const ServicesDesc = styled.div`
     flex-direction: column;
     justify-self: center;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 15px;
     max-height: auto;
     max-width: 1200px;
     padding: 30px;
-    box-shadow: 10px 10px 10px #d4dde3,
-    -10px -10px 10px #ffffff;
+    box-shadow: 13px 13px 40px #8aa7ae,
+    -13px -13px 40px #dcffff;
     transition: all 0.2s ease-in-out;
     font-size: 0.9rem;
     line-height: 1.6;
@@ -168,8 +168,8 @@ export const ServicesHighlight = styled(Highlight)`
     max-width: 800px;
     justify-self: center;
     font-size: 1rem;
-    box-shadow: 10px 10px 10px #d4dde3,
-    -10px -10px 10px #ffffff;
+    box-shadow: 13px 13px 40px #8aa7ae,
+    -13px -13px 40px #dcffff;
 
     @media screen and (max-width: 1200px){
         max-width: 800px;

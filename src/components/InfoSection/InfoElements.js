@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
     color: #fff;
@@ -31,7 +31,7 @@ export const InfoWrapper = styled.div`
     z-index: 1;
     height: 860px;
     width: 100%;
-    max-width: 1300px;
+    max-width: 1600px;
     margin-right: auto;
     margin-left: auto;
     padding: 0 24px;
@@ -52,7 +52,7 @@ export const InfoRow = styled.div`
     grid-auto-columns: minmax(auto, 1fr);
     align-items: center;
     grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
-    width: 1300px;
+    width: 1400px;
 
     @media screen and (max-width: 1024px){
         grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)};
@@ -80,19 +80,17 @@ export const Column2 = styled.div`
 `
 
 export const TextWrapper = styled.div`
-    max-width: 540px;
-    padding-top: 0;
-    padding-bottom: 60px;
+    max-width: 600px;
 `
 
 export const TopLine = styled.p`
-    color: #4CD7E4;
+    color: #C5E0E3;
     font-size: 16px;
     line-height: 16px;
     font-weight: 700;
     letter-spacing: 1.4px;
     text-transform: uppercase;
-    margin-bottom: 16px;
+    margin-bottom: 20px;
 
     @media screen and (max-width: 480px){
         font-size: 12px;
@@ -114,7 +112,7 @@ export const Heading = styled.h1`
 `
 
 export const Subtitle = styled.p`
-    max-width: 440px;
+    max-width: 470px;
     margin-bottom: 35px;
     font-size: 18px;
     line-height: 24px;
@@ -133,6 +131,7 @@ export const BtnWrap = styled.div`
 `
 
 export const ImgWrap = styled.div`
+    margin-left: 5%;
     max-width: 555px;
     height: 100%;
 `
