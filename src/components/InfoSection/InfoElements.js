@@ -52,7 +52,7 @@ export const InfoRow = styled.div`
     grid-auto-columns: minmax(auto, 1fr);
     align-items: center;
     grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
-    width: 1400px;
+    width: 1300px;
 
     @media screen and (max-width: 1024px){
         grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)};
@@ -128,12 +128,6 @@ export const Subtitle = styled.p`
 export const BtnWrap = styled.div`
     display: flex;
     justify-content: flex-start;
-`
-
-export const ImgWrap = styled.div`
-    margin-left: 5%;
-    max-width: 555px;
-    height: 100%;
 `
 
 export const Img = styled.img`

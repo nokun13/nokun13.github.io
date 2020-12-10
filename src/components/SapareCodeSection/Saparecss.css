@@ -39,3 +39,11 @@
     transition-duration: 1s;
     transform: scale(1.05);
 }
+
+.video-js{
+    width: 720px;
+    height: 540px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

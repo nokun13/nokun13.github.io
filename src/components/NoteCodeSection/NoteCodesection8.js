@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
-import {ServicesWrapper, ServicesCard, ServicesH2, ServicesP,
-    ServicesHighlight, ServicesDesc, ServicesImgSet} from './ServicesElements';
+import {ServicesWrapper, ServicesCard, ServicesH2, ServicesP, ServicesDesc, ServicesImgSet} from './ServicesElements';
 import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa';
 import './Notecss.css';
 import { NoteImgSet8 } from '../SliderSection/NoteImages8';

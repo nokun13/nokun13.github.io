@@ -21,6 +21,9 @@ const Codesection1 = ({slides,loginCode,loginDesc,loginDesc2,loginDesc3,loginDes
 
     return (
         <ServicesWrapper>
+            <ServicesDesc>
+                {loginDesc4}
+            </ServicesDesc>
             <ServicesCard>
                 <ServicesImgSet>
                     <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
@@ -38,9 +41,6 @@ const Codesection1 = ({slides,loginCode,loginDesc,loginDesc2,loginDesc3,loginDes
                 <ServicesH2>Login Page</ServicesH2>
                 <ServicesP>로그인 화면</ServicesP>
             </ServicesCard>
-            <ServicesDesc>
-                {loginDesc4}
-            </ServicesDesc>
             <ServicesHighlight language='java'>
                 {loginCode}
             </ServicesHighlight>

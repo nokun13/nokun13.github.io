@@ -1,25 +1,15 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import {
-    BtnWrap, Column1, Column2, Heading, ImgWrap,
+    BtnWrap, Column1, Column2, Heading,
     InfoContainer, InfoRow, InfoWrapper,
     Subtitle, TextWrapper, TopLine
 } from './InfoElements'
-import Moneyvid from './Moneyvideo.js'
 import './Buttoncss.css'
 import image from '../../images/gray2.jpg';
 
 const InfoSection = ({lightBg, id, imgStart, topLine, lightText,
 darkText, headline, description, buttonLabel, primary, dark, dark2}) => {
-
-    // const [offsetY, setOffsetY] = useState(0);
-    // const handleScroll = () => setOffsetY(window.pageYOffset);
-
-    // useEffect(() => {
-    //     window.addEventListener("scroll", handleScroll);
-
-    //     return () => window.removeEventListener("scroll", handleScroll);
-    // }, []);
 
     const borderStyle = {
         background: "rgba(0,0,0,0.2)",
@@ -63,9 +53,6 @@ darkText, headline, description, buttonLabel, primary, dark, dark2}) => {
                             </TextWrapper>
                         </Column1>
                         <Column2>
-                            <ImgWrap>
-                                <Moneyvid />
-                            </ImgWrap>
                         </Column2>
                     </InfoRow>
                 </InfoWrapper>

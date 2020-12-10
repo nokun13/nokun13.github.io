@@ -1,11 +1,10 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import {
-    BtnWrap, Column1, Column2, Heading, ImgWrap,
+    BtnWrap, Column1, Column2, Heading,
     InfoContainer, InfoRow, InfoWrapper,
     Subtitle, TextWrapper, TopLine
 } from './InfoElements'
-import Notevid from './Notevideo.js';
 import image from '../../images/blue2.jpg';
 
 const InfoSection2 = ({lightBg, id, imgStart, topLine, lightText,
@@ -62,9 +61,6 @@ darkText, headline, description, buttonLabel, primary, dark, dark2}) => {
                             </TextWrapper>
                         </Column1>
                         <Column2>
-                            <ImgWrap>
-                                <Notevid />
-                            </ImgWrap>
                         </Column2>
                     </InfoRow>
                 </InfoWrapper>

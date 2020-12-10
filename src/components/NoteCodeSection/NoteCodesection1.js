@@ -21,6 +21,9 @@ const NoteCodesection1 = ({slides,loginCode,loginCode2,loginDesc,loginDesc2,logi
 
     return (
         <ServicesWrapper>
+            <ServicesDesc>
+                {loginDesc}
+            </ServicesDesc>
             <ServicesCard>
                 <ServicesImgSet>
                     <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
@@ -38,9 +41,6 @@ const NoteCodesection1 = ({slides,loginCode,loginCode2,loginDesc,loginDesc2,logi
                 <ServicesH2>Login Page</ServicesH2>
                 <ServicesP>로그인 화면</ServicesP>
             </ServicesCard>
-            <ServicesDesc>
-                {loginDesc}
-            </ServicesDesc>
             <ServicesHighlight language='java'>
                 {loginCode}
             </ServicesHighlight>

@@ -184,3 +184,9 @@ export const ServicesHighlight = styled(Highlight)`
         max-width: 300px;
     }
 `
+
+export const ImgWrap = styled.div`
+    max-width: 720px;
+    height: 100%;
+    margin-bottom: 5vh;
+`

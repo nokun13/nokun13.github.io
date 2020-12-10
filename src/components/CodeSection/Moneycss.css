@@ -38,3 +38,40 @@
     transition-duration: 1s;
     transform: scale(1.05);
 }
+
+.video-js{
+    width: 720px;
+    height: 540px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1024px){
+    .video-js{
+        width: 540px;
+        height: 380px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .video-js{
+        width: 360px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .video-js{
+        width: 320px;
+        height: 160px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .video-js{
+        width: 240px;
+        height: 180px;
+    }
+}

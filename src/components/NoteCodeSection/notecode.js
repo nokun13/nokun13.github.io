@@ -1,5 +1,5 @@
 import React from 'react'
-import {ServicesContainer, ServicesBack, ServicesH1,ServicesBorder} from './ServicesElements';
+import {ServicesContainer, ServicesBack, ServicesH1,ServicesBorder, ImgWrap} from './ServicesElements';
 import {Link} from 'react-router-dom';
 import NoteCodesection1 from './NoteCodesection1';
 import { noteHighlight } from './notecode-highlight1';
@@ -17,6 +17,7 @@ import { noteHighlight7 } from './notecode-highlight7';
 import NoteCodesection7 from './NoteCodesection7';
 import NoteCodesection8 from './NoteCodesection8';
 import { noteHighlight8 } from './notecode-highlight8';
+import Notevid from './Notevideo';
 
 const Notecode = () => {
     return (
@@ -25,6 +26,9 @@ const Notecode = () => {
             <link rel="stylesheet" href="https://highlightjs.org/static/demo/styles/railscasts.css" />
             <Link to='/' className='gobackbutton'><ServicesBack>← go back</ServicesBack></Link>
             <ServicesH1>note project</ServicesH1>
+            <ImgWrap>
+                <Notevid />
+            </ImgWrap>
             <NoteCodesection1 {...noteHighlight}/>
             <ServicesBorder />
             <NoteCodesection2 {...noteHighlight2}/>

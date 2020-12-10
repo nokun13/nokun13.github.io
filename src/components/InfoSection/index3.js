@@ -1,11 +1,10 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import {
-    BtnWrap, Column1, Column2, Heading, ImgWrap,
+    BtnWrap, Column1, Column2, Heading,
     InfoContainer2, InfoRow, InfoWrapper,
     Subtitle, TextWrapper, TopLine
 } from './InfoElements'
-import Saparevid from './Saparevideo.js';
 import image from '../../images/green2.jpg';
 
 const InfoSection3 = ({lightBg, id, imgStart, topLine, lightText,
@@ -53,9 +52,6 @@ darkText, headline, description, buttonLabel, primary, dark, dark2}) => {
                             </TextWrapper>
                         </Column1>
                         <Column2>
-                            <ImgWrap>
-                                <Saparevid />
-                            </ImgWrap>
                         </Column2>
                     </InfoRow>
                 </InfoWrapper>
