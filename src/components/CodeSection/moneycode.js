@@ -1,5 +1,5 @@
 import React from 'react'
-import {ServicesContainer, ServicesBack, ServicesH1,ServicesBorder, ImgWrap} from './ServicesElements';
+import {ServicesContainer, ServicesBack, ServicesH1,ServicesBorder} from './ServicesElements';
 import {Link} from 'react-router-dom';
 import Codesection1 from './Codesection1';
 import Codesection2 from './Codesection2';
@@ -15,7 +15,6 @@ import { moneyHighlight6 } from './moneycode-highlight6';
 import Codesection6 from './Codesection6';
 import Codesection7 from './Codesection7';
 import { moneyHighlight7 } from './moneycode-highlight7';
-import Moneyvid from './Moneyvideo';
 
 const Moneycode = () => {
 
@@ -24,9 +23,6 @@ const Moneycode = () => {
             <link rel="stylesheet" href="https://highlightjs.org/static/demo/styles/railscasts.css" />
             <Link to='/' className='gobackbutton'><ServicesBack>← go back</ServicesBack></Link>
             <ServicesH1>moneymoney project</ServicesH1>
-            <ImgWrap>
-                <Moneyvid />
-            </ImgWrap>
             <Codesection1 {...moneyHighlight}/>
             <ServicesBorder />
             <Codesection2 {...moneyHighlight2}/>

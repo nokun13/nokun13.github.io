@@ -7,6 +7,9 @@ import Moneypage from './pages/moneypage';
 import Notepage from './pages/notepage';
 import Contactpage from './pages/contactpage';
 import Saparepage from './pages/saparepage';
+import Moneyvideo from './pages/moneyvid';
+import Notevideo from './pages/notevid';
+import Saparevideo from './pages/saparevid';
 require('dotenv').config();
 
 function App() {
@@ -17,8 +20,11 @@ function App() {
       <Switch>
         <Route path="/" component={Home} exact />
         <Route path="/moneycode" component={Moneypage} />
+        <Route path="/moneyvid" component={Moneyvideo} />
         <Route path="/notecode" component={Notepage} />
+        <Route path="/notevid" component={Notevideo} />
         <Route path="/saparecode" component={Saparepage} />
+        <Route path="/saparevid" component={Saparevideo} />
         <Route path="/contactme" component={Contactpage} />
       </Switch>
       </Fragment>

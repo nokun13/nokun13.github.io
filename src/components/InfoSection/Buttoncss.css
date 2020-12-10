@@ -20,3 +20,28 @@
     background: #fff;
     text-decoration: none;
 }
+
+.videoButton{
+    border-radius: 50px;
+    background: #363131;
+    white-space: nowrap;
+    padding: 12px 30px;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    width: 40%;
+}
+
+.videoButton:hover{
+    transition: all 0.2s ease-in-out;
+    background: #E8E1E1;
+    text-decoration: none;
+    color: #000;
+}

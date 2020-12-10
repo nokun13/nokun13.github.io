@@ -1,5 +1,5 @@
 import React from 'react'
-import {ServicesContainer, ServicesBack, ServicesH1,ServicesBorder,ImgWrap} from './ServicesElements';
+import {ServicesContainer, ServicesBack, ServicesH1,ServicesBorder} from './ServicesElements';
 import {Link} from 'react-router-dom';
 import SapareCodesection1 from './SapareCodesection1';
 import { sapareHighlight1 } from './saparecode-highlight1';
@@ -15,7 +15,6 @@ import SapareCodesection6 from './SapareCodesection6';
 import { sapareHighlight6 } from './saparecode-highlight6';
 import SapareCodesection7 from './SapareCodesection7';
 import { sapareHighlight7 } from './saparecode-highlight7';
-import Saparevid from './Saparevideo';
 
 const Saparecode = () => {
     return (
@@ -24,9 +23,6 @@ const Saparecode = () => {
             <link rel="stylesheet" href="https://highlightjs.org/static/demo/styles/railscasts.css" />
             <Link to='/' className='gobackbutton'><ServicesBack>← go back</ServicesBack></Link>
             <ServicesH1>sapare project</ServicesH1>
-            <ImgWrap>
-                <Saparevid />
-            </ImgWrap>
             <SapareCodesection1 {...sapareHighlight1}/>
             <ServicesBorder />
             <SapareCodesection2 {...sapareHighlight2}/>

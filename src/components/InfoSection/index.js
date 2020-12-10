@@ -52,7 +52,15 @@ darkText, headline, description, buttonLabel, primary, dark, dark2}) => {
                                 </div>
                             </TextWrapper>
                         </Column1>
-                        <Column2>
+                        <Column2 style={{display: "flex", justifyContent: "center"}}>
+                            <Link to='/moneyvid'
+                            className='videoButton'
+                            primary={primary ? 1 : 0}
+                            dark={dark ? 1 : 0}
+                            dark2={dark2 ? 1 : 0}
+                            >
+                                Watch how it works
+                            </Link>
                         </Column2>
                     </InfoRow>
                 </InfoWrapper>
