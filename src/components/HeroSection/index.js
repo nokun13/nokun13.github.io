@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react'
 // import Video from '../../videos/video.mp4';
-import Image from '../../images/fallImg2.jpg';
-import { HeroContainer, HeroBg, ImageBg, HeroContent, HeroH1, HeroP,
+import { HeroContainer, HeroContent, HeroH1, HeroP,
 HeroBtnWrapper, ArrowForward, ArrowRight, HeroButton } from './HeroElements';
 import '../InfoSection/Buttoncss.css';
 import ContactForm from '../ContactSection/ContactUs';
@@ -33,9 +32,6 @@ const HeroSection = () => {
     return (
         <HeroContainer id='about'>
             <ContactForm showModal={showModal} setShowModal={setShowModal} />
-            <HeroBg>
-                <ImageBg src={Image} />
-            </HeroBg>
             <HeroContent>
                 <HeroH1 style={{ transform: `translateX(${offsetY * -0.2}px)`}}>
                 Hi, I'm a Web Developer</HeroH1>
