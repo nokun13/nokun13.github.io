@@ -21,6 +21,9 @@ const SapareCodesection1 = ({slides,mainCode,mainCode2,mainDesc,mainDesc2,mainDe
 
     return (
         <ServicesWrapper>
+            <ServicesDesc>
+                {mainDesc}
+            </ServicesDesc>
             <ServicesCard>
                 <ServicesImgSet>
                     <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
@@ -38,9 +41,6 @@ const SapareCodesection1 = ({slides,mainCode,mainCode2,mainDesc,mainDesc2,mainDe
                 <ServicesH2>Main Page</ServicesH2>
                 <ServicesP>메인 화면</ServicesP>
             </ServicesCard>
-            <ServicesDesc>
-                {mainDesc}
-            </ServicesDesc>
             <ServicesHighlight language='java'>
                 {mainCode}
             </ServicesHighlight>
