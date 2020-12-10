@@ -6,7 +6,7 @@ import {
     Subtitle, TextWrapper, TopLine
 } from './InfoElements'
 import Saparevid from './Saparevideo.js';
-import image from '../../images/green.jpg';
+import image from '../../images/green2.jpg';
 
 const InfoSection3 = ({lightBg, id, imgStart, topLine, lightText,
 darkText, headline, description, buttonLabel, primary, dark, dark2}) => {

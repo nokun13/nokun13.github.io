@@ -7,7 +7,7 @@ import {
 } from './InfoElements'
 import Moneyvid from './Moneyvideo.js'
 import './Buttoncss.css'
-import image from '../../images/gray.jpg';
+import image from '../../images/gray2.jpg';
 
 const InfoSection = ({lightBg, id, imgStart, topLine, lightText,
 darkText, headline, description, buttonLabel, primary, dark, dark2}) => {

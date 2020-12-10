@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 // import Video from '../../videos/video.mp4';
-import Image from '../../images/fallImg.jpg';
+import Image from '../../images/fallImg2.jpg';
 import { HeroContainer, HeroBg, ImageBg, HeroContent, HeroH1, HeroP,
 HeroBtnWrapper, ArrowForward, ArrowRight, HeroButton } from './HeroElements';
 import '../InfoSection/Buttoncss.css';

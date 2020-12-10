@@ -6,7 +6,7 @@ import {
     Subtitle, TextWrapper, TopLine
 } from './InfoElements'
 import Notevid from './Notevideo.js';
-import image from '../../images/blue.jpg';
+import image from '../../images/blue2.jpg';
 
 const InfoSection2 = ({lightBg, id, imgStart, topLine, lightText,
 darkText, headline, description, buttonLabel, primary, dark, dark2}) => {
