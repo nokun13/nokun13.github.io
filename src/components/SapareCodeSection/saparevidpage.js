@@ -9,7 +9,7 @@ const Saparevidpage = () => {
         <ServicesContainer id="services">
             <Link to='/' className='gobackbutton'><ServicesBack>← go back</ServicesBack></Link>
             <ServicesH1>sapare project</ServicesH1>
-            <ServicesH2>Please wait a minute for the video to load!</ServicesH2>
+            <ServicesH2>If the video doesn't load, try switching pages please!</ServicesH2>
             <ImgWrap>
                 <Saparevid />
             </ImgWrap>
