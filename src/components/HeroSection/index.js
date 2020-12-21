@@ -36,7 +36,7 @@ const HeroSection = () => {
             </HeroBg>
             <HeroContent>
                 <HeroH1 style={{ transform: `translateX(${offsetY * -0.2}px)`}}>
-                Hi, I'm a Web Developer</HeroH1>
+                Hi, I'm a Software Developer</HeroH1>
                 <HeroP style={{ transform: `translateX(${offsetY * 0.2}px)`}}>
                     Welcome to Nok Hun Kim's Portfolio Website
                 </HeroP>
