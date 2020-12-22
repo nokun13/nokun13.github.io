@@ -83,8 +83,8 @@ export const ServicesDesc = styled.div`
     max-height: auto;
     max-width: 1200px;
     padding: 30px;
-    box-shadow: 13px 13px 40px #8aa7ae,
-    -13px -13px 40px #dcffff;
+    box-shadow: 13px 13px 40px #7c9895,
+    -13px -13px 40px #c6f2ed;
     transition: all 0.2s ease-in-out;
     font-size: 0.9rem;
     line-height: 1.6;
