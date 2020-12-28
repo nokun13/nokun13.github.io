@@ -25,7 +25,7 @@ export const Nav = styled.nav`
 export const NavbarContainer = styled.div`
     display: flex;
     justify-content: space-between;
-    height: 80px;
+    height: 100%;
     z-index: 1;
     width: 100%;
     padding: 0 24px;
@@ -99,6 +99,7 @@ export const NavMenu = styled.div`
     list-style: none;
     text-align: center;
     margin-right: -22px;
+    height: 100%;
 
     @media screen and (max-width: 768px) {
         display: none;
@@ -106,7 +107,7 @@ export const NavMenu = styled.div`
 `
 
 export const NavItem = styled.li`
-    height: 80px;
+    height: 100%;
 `
 
 export const NavLinks = styled(LinkScroll)`
