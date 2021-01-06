@@ -114,12 +114,22 @@ export const SocialIcons = styled.div`
     width: 120px;
 `
 
-export const SocialIconLink = styled.a`
+export const SocialIconLinkGithub = styled.a`
     color: #fff;
     font-size: 24px;
 
     &:hover{
-        color: #31D5E7;
+        color: #2dba4e;
+        transition: 0.3s ease-out;
+    }
+`
+
+export const SocialIconLinkLinkedIn = styled.a`
+    color: #fff;
+    font-size: 24px;
+
+    &:hover{
+        color: #0077B5;
         transition: 0.3s ease-out;
     }
 `

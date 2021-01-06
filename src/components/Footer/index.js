@@ -3,7 +3,7 @@ import {FaLinkedin, FaGithub, FaReact} from 'react-icons/fa';
 import { FooterContainer, FooterLink, FooterLinkItems,
     FooterLinksContainer, FooterLinksWrapper, FooterLinkTitle,
     FooterWrap, SocialMedia, SocialMediaWrap,
-    SocialLogo, WebsiteRights, SocialIcons, SocialIconLink } from './FooterElements'
+    SocialLogo, WebsiteRights, SocialIcons, SocialIconLinkGithub, SocialIconLinkLinkedIn } from './FooterElements'
 import {animateScroll as scroll} from 'react-scroll';
 import ScrollToTopBtn from '../ScrollTopClass'
 
@@ -36,14 +36,14 @@ const Footer = () => {
                             takes a bite out of this code :)
                         </WebsiteRights>
                         <SocialIcons>
-                            <SocialIconLink href="//www.github.com/nokun13" target="_blank"
+                            <SocialIconLinkGithub href="//www.github.com/nokun13" target="_blank"
                             aria-label="Github">
                                 <FaGithub />
-                            </SocialIconLink>
-                            <SocialIconLink href="//www.linkedin.com/in/nok-hun-kim-a21068192/" target="_blank"
+                            </SocialIconLinkGithub>
+                            <SocialIconLinkLinkedIn href="//www.linkedin.com/in/nok-hun-kim-a21068192/" target="_blank"
                             aria-label="Linkedin">
                                 <FaLinkedin />
-                            </SocialIconLink>
+                            </SocialIconLinkLinkedIn>
                         </SocialIcons>
                     </SocialMediaWrap>
                 </SocialMedia>
